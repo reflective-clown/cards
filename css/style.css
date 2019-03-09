@@ -15,26 +15,12 @@ this is a change
     font-size: 16px;
 }
 
+
 body {
     background-color: #f9f9f9;
 }
 
-h2 {
-    color: #eb7313;
-    font-size: 1.1rem;
-    margin-top: 1rem;
-    margin-bottom: .5rem;
-    text-align: center;
-}
 
-.card-text {
-    color: #3c3c3c;
-    height: 7rem;
-    overflow: hidden;
-    font-size: .8rem;
-    line-height: 1.4;
-    text-align: center;
-}
 
 .size {
     background-color: cadetblue;
@@ -55,22 +41,67 @@ main {
     margin-top: 3rem;
     padding: 1.25rem;
     transition: all .3s ease-in-out;
+}
 
+
+picture, img {
+    max-width: 100%;
+    display: block;
+    /*height: 17rem;*/
+    height: 300px;
 }
 
 img {
-    max-width: 100%;
-    display: block;
-    height: 18rem;
+    padding: 1rem;
+
+}
+
+.full-bleed {
+    padding: 0;
 }
 
 .card {
     width: 100%;
-    height: 30rem;
-    padding: 1rem;
+    height: 31.5rem;
     background-color: white;
-    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .1);
     overflow: hidden;
+}
+
+.card-text-container {
+    padding: 1rem;
+}
+
+.card-heading {
+    margin-bottom: .5rem;
+}
+
+.card-heading > h2 {
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.card-text {
+    color: #3c3c3c;
+    height: 7rem;
+    overflow: hidden;
+    font-size: .8rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    height: 32px;
+}
+
+
+.ion-ios-arrow-round-forward {
+    font-size: 2rem;
+    font-stretch: expanded;
+    font-weight: bold;
+    color: rgba(235, 115, 19, 0.56);
 }
 
 .emp {
