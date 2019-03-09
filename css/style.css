@@ -20,8 +20,6 @@ body {
     background-color: #f9f9f9;
 }
 
-
-
 .size {
     background-color: cadetblue;
     color: #ffffff;
@@ -66,6 +64,8 @@ img {
     background-color: white;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, .1);
     overflow: hidden;
+    transition: all .3s ease-in-out;
+
 }
 
 .card-text-container {
@@ -107,6 +107,30 @@ img {
 .emp {
     font-weight: bold;
 }
+
+
+/************************************
+
+            INTERACTIONS
+
+*************************************/
+
+a {
+    text-decoration: none;
+}
+
+.card:hover {
+}
+
+a:visited {
+color: inherit;
+
+}
+
+.card:active {
+    transform: scale(.97);
+}
+
 
 
 /************************************
