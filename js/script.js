@@ -11,23 +11,23 @@ function init() {
     Array.from(cards).forEach((card) => {
         card.move = false;
         card.addEventListener("touchend", function (evt) {
-            if (card.move === true) {
-                console.log("Not a Tap.");
-                card.move = false;
-            } else {
+            // if (card.move === true) {
+            //     console.log("Not a Tap.");
+            //     card.move = false;
+            // } else {
                 // evt.preventDefault();
 
                 console.log("TAP TAP.")
-            }
+            // }
 
         });
 
 
         // card.addEventListener("touchend", handleStart, false);
-        card.addEventListener("touchmove", function (evt) {
-            // evt.preventDefault();
-            card.move = true;
-        });
+        // card.addEventListener("touchmove", function (evt) {
+        //     // evt.preventDefault();
+        //     card.move = true;
+        // });
     });
 
     console.log("Touch initialized.");
