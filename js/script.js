@@ -15,7 +15,7 @@ function init() {
                 console.log("Not a Tap.");
                 card.move = false;
             } else {
-                evt.preventDefault();
+                // evt.preventDefault();
 
                 console.log("TAP TAP.")
             }
