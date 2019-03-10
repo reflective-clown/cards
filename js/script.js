@@ -24,7 +24,7 @@ function init() {
 
         // card.addEventListener("touchend", handleStart, false);
         card.addEventListener("touchmove", function (evt) {
-            evt.preventDefault();
+            // evt.preventDefault();
             card.move = true;
         });
     });
