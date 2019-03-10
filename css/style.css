@@ -120,16 +120,19 @@ a {
     text-decoration: none;
 }
 
-/*.card:hover {*/
-/*}*/
+.card:hover {
+    transform: scale(1.01);
 
-/*a:visited {*/
-/*color: inherit;*/
+}
 
-/*}*/
+a:visited {
+color: inherit;
+
+}
 
 .card:active {
     transform: scale(.97);
+    color: inherit;
 }
 
 
