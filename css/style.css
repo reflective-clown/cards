@@ -128,9 +128,9 @@ a {
 
 /*}*/
 
-/*.card:active {*/
-    /*transform: scale(.97);*/
-/*}*/
+.card:active {
+    transform: scale(.97);
+}
 
 
 
