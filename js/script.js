@@ -12,7 +12,8 @@ function init() {
         card.move = false;
         card.addEventListener("touchend", function (evt) {
             if (card.move === true) {
-                console.log("Not a Tap.")
+                console.log("Not a Tap.");
+                card.move = false;
             } else {
                 evt.preventDefault();
 
