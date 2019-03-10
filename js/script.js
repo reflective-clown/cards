@@ -11,10 +11,11 @@ function init() {
     Array.from(cards).forEach((card) => {
         card.move = false;
         card.addEventListener("touchend", function (evt) {
-            evt.preventDefault();
             if (card.move === true) {
                 console.log("Not a Tap.")
             } else {
+                evt.preventDefault();
+
                 console.log("TAP TAP.")
             }
 
